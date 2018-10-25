@@ -33,7 +33,7 @@ frame = np.float32(PIL.Image.open('sky1024px.jpg'))
 # Random noise image
 frame = np.random.rand(575,1024,3) * 255
 
-print(net.blobs.keys())
+# print(net.blobs.keys())
 
 s = 0.05 # scale coefficient
 octave_n = 4
